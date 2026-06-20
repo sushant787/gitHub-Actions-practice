@@ -1,0 +1,9 @@
+name: CICD
+
+code:
+
+build:
+
+test:
+
+deploy:
