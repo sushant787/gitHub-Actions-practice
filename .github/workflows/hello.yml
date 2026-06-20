@@ -1,9 +1,6 @@
 # Workflow [No indentation required for naming the workflow]
-
 name: Hello
-
 # On tells when the workflow should run (Give indentation by tab)
-
   on:
     workflow_dispatch:
 
