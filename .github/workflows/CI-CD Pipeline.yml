@@ -1,6 +1,7 @@
 name: CI-CD Pipeline
 
 on:
+
   push:
     branches:
       - main
@@ -23,7 +24,8 @@ jobs:
           sleep 5
 
   test:
-    needs: build
+    needs:
+      - build  
     runs-on: ubuntu-latest
 
     steps:
