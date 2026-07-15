@@ -1,7 +1,7 @@
+# Workflow [No indentation required for naming the workflow]
 name: CI-CD Pipeline
 
 on:
-
   push:
     branches:
       - main
